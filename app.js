@@ -1,5 +1,4 @@
 function Clock(clockPlace) {
-  let timer;
   let clockContent = document.querySelector(clockPlace);
   this.showTime = function () {
     let date = new Date();
