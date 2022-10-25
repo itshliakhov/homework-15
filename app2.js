@@ -1,5 +1,4 @@
 class Clock {
-  timer = undefined;
   constructor({ clockContent, clockStopBtn }) {
     this.clockPlace = document.querySelector(clockContent);
     this.clockStopBtn = document.querySelector(clockStopBtn);
